@@ -22,29 +22,29 @@ export const androidEmulator = {
   noReset: "true"
 };
 
-export const androidGalaxyS8 = {
+export const androidGalaxy = {
   platformName: "Android",
-  deviceName: "Galaxy S8",
+  deviceName: "Galaxy",
   app: buildAppPath(ANDROID_APK_PATH),
-  platformVersion: "9",
+  platformVersion: "<>",
   udid: "ce071827ade9c91305"
 };
 
 export const iphoneSimulator = {
   platformName: "IOS",
-  deviceName: "iPhone 8",
+  deviceName: "iPhone",
   app: buildAppPath(IOS_APP_PATH),
   automationName: "XCUITest",
-  platformVersion: "12.2",
+  platformVersion: "<>",
   noReset: "true"
 };
 
 export const iphoneDevice = {
   platformName: "IOS",
-  deviceName: "iPhone 8 plus",
+  deviceName: "iPhone",
   app: buildAppPath(IOS_IPA_PATH),
   automationName: "XCUITest",
-  platformVersion: "12.1",
+  platformVersion: "<>",
   newCommandTimeout: 300,
   autoLaunch: false,
   clearSystemFiles: true,
